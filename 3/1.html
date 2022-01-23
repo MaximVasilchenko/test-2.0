@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+<body>
+	<div id="js"> JS IS AWESOME</div>
+	<div id="bth">Switch text</div>
+	<script>
+		var id = document.querySelector("#js")
+		var idw= document.querySelector("#bth")
+
+		// console.log(idw)
+		// console.log(id)
+
+		idw.onclick = function (){
+		id.innerHTML = "Hello"
+		id.style.color = "red"
+		}
+
+	</script>
+	
+</body>
+</html>

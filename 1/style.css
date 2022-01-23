@@ -1,0 +1,167 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: sens-serif;
+
+}
+
+body{
+	background: rgb(255, 252, 99);
+}
+
+#wraper  {
+	background: #fff ;
+	width: 90%;
+	height: 100vh;
+	margin:  0 auto;
+	margin-top: 30px;
+}
+
+header{
+	height: 100px;
+	width: 100%;
+	display: flex;
+}
+
+.header_flex {
+	width: 50%;
+	height: 100%;
+}
+
+#right {
+	display: flex;
+	justify-content:  flex-end;
+	align-items: center;
+
+}
+
+#logo{
+	height: 100%;
+	width: 320px;
+	display: flex;	
+}
+
+#cart{
+	width: 150px;
+	height: 50px;
+	background: orange;
+	border-radius: 30px;
+}
+
+p{
+	font-weight:  bold;
+	font-size: 24px;
+}
+
+nav{
+
+	height: 50px;
+	width: 100%;
+}
+
+#wraper_nav{
+height: 100%;
+width: 700px;
+}
+
+ul{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	list-style-type: none;
+}
+
+li{
+	width: 90%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-weight: bold;
+	transform: 3s;
+}
+li:hover{
+	background: #000;
+	color: #fff;
+	border-radius: 15px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+section {
+	width: 100%;
+	height: 100%;
+	background: #fff;
+}
+
+section p{
+	padding-top: 10px;
+	padding-left: 25px;
+}
+
+article {
+	height: 100%;
+	width: 96%;
+	margin: 0 auto;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-between; 
+}
+
+.pizza {
+	width: 280px;
+	height: 390px;	
+}
+
+.img_pizza {
+	width: 100%;
+	height: 260px;
+	display: flex;
+	justify-content: center;   
+}
+
+.dough, .size {
+	width: 100%;
+	height: 20px;
+	background: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	margin-top: 10px;
+}
+
+.sale{
+	width: 100%;
+	height: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.btn {
+	width: 130px;
+	height: 40px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #fff;
+	background: orange;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.span {
+	font-weight: bold;
+	font-size: 17px;
+}
+
+.btn:hover {
+		color: 	orange;
+		background: none;
+		border: 2px solid orange; 	
+}
+ 	
